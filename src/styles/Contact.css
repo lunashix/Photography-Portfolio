@@ -1,0 +1,93 @@
+
+.form-title {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    max-width: 600px;
+    margin: 20px auto;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+    
+ 
+  }
+  
+  input,
+  select {
+    padding: 10px;
+  }
+
+  .textarea {
+    padding: 10px;
+    height: 100px;
+    width: 100%;
+  }
+  
+  .button {
+    display: inline-block;
+    background-color: var(--color-background);
+    color: var(--color-text-dark);
+    font-weight: bold;
+
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 40px;
+
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #3e5ba9eb;
+    
+  }
+
+  .form-error {
+    color: red;
+    font-size: small;
+    font-weight : bold;
+  }
+
+  .confirm-text {
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+
+  @media (min-width: 44rem) {
+    
+    form {
+      max-width: 600px;
+    }
+  
+    input,
+    select {
+      flex: 1;
+    }
+  
+    form div {
+      flex-direction: row;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    .confirm-text {
+        text-align: center;
+        padding: 1rem 0;
+        font-size: 1rem;
+        font-weight: bold;
+      }
+  }
+  

@@ -1,0 +1,77 @@
+import portraits1 from "./images/portraits-imgs/1.jpg";
+import portraits2 from "./images/portraits-imgs/2.jpg";
+import portraits3 from "./images/portraits-imgs/3.jpg";
+import portraits4 from "./images/portraits-imgs/4.jpg";
+import portraits5 from "./images/portraits-imgs/5.jpg";
+import portraits6 from "./images/portraits-imgs/6.jpg";
+import portraits7 from "./images/portraits-imgs/7.jpg";
+import portraits8 from "./images/portraits-imgs/8.jpg";
+import portraits9 from "./images/portraits-imgs/9.jpg";
+import portraits10 from "./images/portraits-imgs/10.jpg";
+import portraits11 from "./images/portraits-imgs/11.jpg";
+import portraits12 from "./images/portraits-imgs/12.jpg";
+import portraits13 from "./images/portraits-imgs/13.jpg";
+import portraits14 from "./images/portraits-imgs/14.jpg";
+import portraits15 from "./images/portraits-imgs/15.jpg";
+import portraits16 from "./images/portraits-imgs/16.jpg";
+import portraits17 from "./images/portraits-imgs/17.jpg";
+import portraits18 from "./images/portraits-imgs/18.jpg";
+import portraits19 from "./images/portraits-imgs/19.jpg";
+import portraits20 from "./images/portraits-imgs/20.jpg";
+import portraits21 from "./images/portraits-imgs/21.jpg";
+import portraits22 from "./images/portraits-imgs/22.jpg";
+import portraits23 from "./images/portraits-imgs/23.jpg";
+import portraits24 from "./images/portraits-imgs/24.jpg";
+import portraits25 from "./images/portraits-imgs/25.jpg";
+import portraits26 from "./images/portraits-imgs/26.jpg";
+import portraits27 from "./images/portraits-imgs/27.jpg";
+import portraits28 from "./images/portraits-imgs/28.jpg";
+import portraits29 from "./images/portraits-imgs/29.jpg";
+import portraits30 from "./images/portraits-imgs/30.jpg";
+import portraits31 from "./images/portraits-imgs/31.jpg";
+import portraits32 from "./images/portraits-imgs/32.jpg";
+import portraits33 from "./images/portraits-imgs/33.jpg";
+import portraits34 from "./images/portraits-imgs/34.jpg";
+import portraits35 from "./images/portraits-imgs/35.jpg";
+import portraits36 from "./images/portraits-imgs/36.jpg";
+
+const gallery = [
+    {image: portraits1, type: "outdoor"},
+    {image: portraits2, type: "outdoor"},
+    {image: portraits3, type: "outdoor"},
+    {image: portraits4, type: "outdoor"},
+    {image: portraits5, type: "outdoor"},
+    {image: portraits6, type: "outdoor"},
+    {image: portraits7, type: "indoor"},
+    {image: portraits8, type: "indoor"},
+    {image: portraits9, type: "outdoor"},
+    {image: portraits10, type: "outdoor"},
+    {image: portraits11, type: "outdoor"},
+    {image: portraits12, type: "indoor"},
+    {image: portraits13, type: "indoor"},
+    {image: portraits14, type: "indoor"},
+    {image: portraits15, type: "indoor"},
+    {image: portraits16, type: "indoor"},
+    {image: portraits17, type: "outdoor"},
+    {image: portraits18, type: "outdoor"},
+    {image: portraits19, type: "outdoor"},
+    {image: portraits20, type: "indoor"},
+    {image: portraits21, type: "indoor"},
+    {image: portraits22, type: "indoor"},
+    {image: portraits23, type: "indoor"},
+    {image: portraits24, type: "outdoor"},
+    {image: portraits25, type: "indoor"},
+    {image: portraits26, type: "indoor"},
+    {image: portraits27, type: "indoor"},
+    {image: portraits28, type: "indoor"},
+    {image: portraits29, type: "indoor"},
+    {image: portraits30, type: "outdoor"},
+    {image: portraits31, type: "outdoor"},
+    {image: portraits32, type: "indoor"},
+    {image: portraits33, type: "outdoor"},
+    {image: portraits34, type: "outdoor"},
+    {image: portraits35, type: "outdoor"},
+    {image: portraits36, type: "indoor"},
+];
+
+export default gallery;

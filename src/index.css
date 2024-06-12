@@ -1,0 +1,40 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --color-background: rgb(250, 236, 236);
+  --color-text-light: #d2d5d7;
+  --color-text-dark: #111827cc;
+  --color-hover-text: #a2a5a8;
+  --base-font-size: 1rem;
+  --heading-font-font-family: "Helvetica Neue", Arial, sans-serif;
+  --heading-font-font-style: normal;
+  --heading-font-font-weight: 400; 
+  
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+
+  font-family: sans-serif;
+  line-height: 1.8;
+
+  background-color: var(--color-page-background);
+  color: var(--color-text-dark);
+
+  padding-bottom: 3rem;
+}
+
+#root {
+  height: 100%;
+}

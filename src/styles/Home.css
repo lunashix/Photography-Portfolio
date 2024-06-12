@@ -1,0 +1,54 @@
+.first-panel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0.5rem;
+    line-height: 1.4;
+    
+  }
+  
+  .panel-header {
+    text-align: center;
+    padding: 0.5rem 0;
+    font-size: large;
+    font-weight: bold;
+  }
+  
+  .panel-pic {
+
+    height: 500px;
+    width: 400px;
+
+  }
+
+  .panel-text-container {
+    flex: 1;
+  }
+  
+  .panel-text {
+    padding: 0.5rem;
+    text-align: center;
+  }
+  
+  @media (min-width: 44rem) {
+    .first-panel {
+      display: flex;
+      flex-direction: row;
+      margin: 5rem;
+      align-items: flex-start;
+    }
+  
+    .panel-pic {
+      height: auto;
+      width: 400px;
+    }
+
+    .panel-text {
+      padding: 0.5rem;
+      text-align: center;
+  
+    }
+  }
+  
+  
+  

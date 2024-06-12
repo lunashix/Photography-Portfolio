@@ -1,0 +1,98 @@
+.global-nav__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+.global-nav__link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    color: var(--color-text-dark);
+    text-decoration: none;
+  }
+.global-nav__link:hover {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    color: var(--color-hover-text);
+  }
+
+  .global-nav__link:focus {
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
+    color: var(--color-hover-text);
+  }
+
+  .global-nav__item {
+    position: relative;
+  }
+  
+
+  
+  .global-nav__item:hover {
+    display: block;
+    transform: scaleX(1);
+  }
+
+
+
+@media (max-width: 44rem) {
+
+  /* below CSS adapted from https://css.gg under the MIT License */
+  .gg-menu {
+    transform: scale(var(--ggs, 1));
+    cursor: pointer;
+    margin-right: 2rem;
+
+  }
+
+
+  .gg-menu,
+  .gg-menu::after,
+  .gg-menu::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 25px;
+    height: 2.5px;
+    border-radius: 3px;
+    background: currentColor;
+  }
+
+  .gg-menu::after,
+  .gg-menu::before {
+    content: "";
+    position: absolute;
+    top: -6px;
+  }
+
+  .gg-menu::after {
+    top: 6px;
+  }
+
+  .global-nav__list {
+    display: none;
+  
+  }
+
+  .global-nav__list.open {
+    display: block;
+    position: absolute;
+    right: 0;
+    margin-top: 1rem;
+    
+  }
+
+  .global-nav__link {
+    display: block;
+    text-align: center;
+    
+  }
+
+  .global-nav__list a {
+    display: block;
+    padding: 0.1rem 1rem;
+  }
+}
